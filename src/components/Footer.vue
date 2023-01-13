@@ -90,7 +90,7 @@ footer p{
     margin-bottom: 10px;
     font-size: 0.7em;
 }
-@media (width: 300px){
+@media screen and (min-width: 300px) and (max-width: 720px){
     footer .menu{
         display:grid;
         grid-template-columns: auto auto auto;

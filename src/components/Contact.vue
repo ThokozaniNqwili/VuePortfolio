@@ -100,15 +100,7 @@
 </template>
 
 <style>
-.contact p {
-  font-size: 4.5rem;
-  padding: 1rem;
-  font-style: italic;
-}
-.contact .detail {
-  font-weight: bold;
-  padding-top: 3rem;
-}
+
 .contact .icons {
   display: flex;
   flex-direction: column;

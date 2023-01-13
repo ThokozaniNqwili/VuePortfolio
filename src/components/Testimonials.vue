@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <h1>Testimonials</h1>
         <div class="row">
           <div class="col-6 col-sm-4" v-for="item in items">
 

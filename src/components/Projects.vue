@@ -1,5 +1,7 @@
-<template>
+<template> 
+  <h1>My Projects</h1>
   <div class="grid-container">
+   
     <div class=" flip-card" v-for="key in projects">
       <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -45,43 +47,44 @@ export default {
             {
                 project:"Calculator",
                 image:"https://i.postimg.cc/d07JQ1H3/calculator.jpg",
-                description:"Standard Calculator, made using HTML,CSS and JavaScript",
+                description:"Standard Calculator, built using HTML,CSS and JavaScript",
                 live:"https://calculator-thokozani.netlify.app/",
                 github:"https://github.com/ThokozaniNqwili/CalculatorTask.git"
             },
             {
                 project:"Flip Cards",
                 image:"https://i.postimg.cc/K8WyQtQv/5907.jpg",
-                description:" A card with content on both sides, back and front, made with CSS and HTML",
+                description:" A card with content on both sides, back and front, built with CSS and HTML",
                 live:"https://myflipcards.netlify.app/",
                 github:"https://github.com/ThokozaniNqwili/Flip-Cards.git"
             },
             {
                 project:"Travel Addicts",
                 image:"https://i.postimg.cc/Qd2vMv8Y/glen-boutique-hotel.jpg",
-                description:"E-commerce website for holiday accomodation, made with HTML,CSS and JavaScript",
+                description:"E-commerce website for holiday accomodation, built with HTML,CSS and JavaScript",
                 live:"https://travel-addicts.netlify.app/",
                 github:"https://github.com/ThokozaniNqwili/TravelAddicts.git"
             },
             {
                 project:"Foodies Market",
                 image:"https://i.postimg.cc/bwmvPGTK/logo.png",
-                description:"A food market e-commerce created using Bootsrap and HTML.",
+                description:"A food market e-commerce created built Bootsrap and HTML.",
                 live:"https://foodiesmarket.netlify.app/",
                 github:"https://github.com/ThokozaniNqwili/Foodies.git"
             },
             {
                 project:"BMI Calculator",
                 image:"https://i.postimg.cc/Dz7Y5YsT/bmi.jpg",
-                description:"Calculates BMI using height and weight, made with Javascript, HTML and CSS",
+                description:"Calculates BMI using height and weight, built with Javascript, HTML and CSS",
                 live:"https://thokozanibmicalculator.netlify.app/",
                 github:"https://github.com/ThokozaniNqwili/BMICalculator.git"
             },
             {
-                project:"Temperature Convertor",
-                description:"",
-                live:"",
-                github:""
+                project:"Professional Portfolio",
+                image:"https://i.postimg.cc/rmgJCSv5/Portfolio.jpg",
+                description:"My first professional portfolio, built with HTML and CSS",
+                live:"https://thokozani-portfolio.netlify.app/",
+                github:"https://github.com/ThokozaniNqwili/Portfolio.git"
             }
         ]
     }
@@ -141,7 +144,7 @@ export default {
   color: black;
   transform: rotateY(180deg);
 }
-@media (width: 300px){
+@media screen and (min-width: 300px) and (max-width: 719px) {
   .grid-container {
     display: grid;
     grid-template-columns: auto;
@@ -151,6 +154,12 @@ export default {
     width:14rem;
     height: 15rem;
   }
-
+}
+@media screen and (min-width: 720px) and (max-width: 1079px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  
+  }
 }
 </style>

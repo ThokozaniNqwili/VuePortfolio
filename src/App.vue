@@ -24,29 +24,16 @@ export default {
   font-family: Georgia, 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
  
   color:rgb(130, 8, 8);
   background-color: #F5EDDC;
 }
 h1{
+  font-size: 2.5rem;
   text-align: center;
-}
-nav {
-  padding: 1rem;
-  background-color: #FA9494;
-
+  text-shadow: 0.2rem 0.2rem 0.4rem #0b0bc4;
+  margin: 1rem;
 }
 
-nav a {
-  font-size: 1.2rem;
-  padding: 1rem;
-  color: #CFD2CF;
-  text-decoration: none;
-}
-
-nav a.router-link-exact-active {
-  color: #EB1D36;
-}
 
 </style>

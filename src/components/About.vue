@@ -6,20 +6,21 @@
         <div class="row">
           <div class="col-sm-4">
             <img
-              class="img-fluid rounded w-75"
+              class="img-fluid rounded w-65"
               src="https://i.postimg.cc/qB8hjz3G/my-Picture.jpg"
               alt="MyPicture"
             />
           </div>
 
           <div class="col-sm-8 fs-6">
-            <h3>A Web Application Developer</h3>
+            <h3>Data Analyst /Software Developer</h3>
             <p>
               I am a goal-driven Information Systems Graduate from the
-              University of Cape Town, I have passion for web application
-              development. I am capable of following industry and technological
-              trends, and I believe in innovation. I enjoy working with people
-              and solving problems.
+              University of Cape Town, I have passion for software programming. I have the skills and training needed
+              to help develop and maintain software programs and to make improvements that will enhance functionality. 
+              I have outstanding problem-solving skills with the ability to troubleshoot technical issues.My good qualities 
+              also include strong communication with the ability to work directly with clients,willingness to learn new programming 
+              language and innovative mindset.
             </p>
             <br />
 
@@ -42,5 +43,37 @@
 </template>
 
 <style>
+.about h3{
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem;
+
+}
+.container{
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 300px) and (max-width: 719px) {
+  .col-sm-8 p {
+    font-size: 0.8rem !important;
+  }
+  .row {
+    font-size: 0.8rem !important;
+  }
+  .col-sm-8 h3{
+    font-size: 1.2rem;
+  }
+}
+  @media screen and (min-width: 720px) and (max-width: 1079px) {
+    .col-sm-8 p{
+      font-size: 0.8rem !important;
+    }
+    .row {
+      font-size: 0.8rem !important;
+    }
+    .col-sm-8 h3{
+      font-size: 1.3rem;
+    }
+}
+
 
 </style>
