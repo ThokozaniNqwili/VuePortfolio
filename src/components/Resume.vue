@@ -182,7 +182,7 @@ export default {
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color:#0b0bc4;
+  background-color:#ef798a;
   left: calc(50% - 1px);
 }
 
@@ -204,7 +204,7 @@ export default {
 .timeline-dot{
   height: 16px;
   width: 16px;
-  background-color: #0b0bc4;
+  background-color: #ef798a;
   position: absolute;
   left:calc(50% - 8px);
   border-radius: 50%;
