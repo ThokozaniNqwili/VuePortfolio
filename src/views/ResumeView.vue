@@ -1,17 +1,16 @@
 <template>
   <div class="resume">
-    <Resume/>
+    <Resume />
   </div>
 </template>
 
 <script>
-import Resume from '@/components/Resume.vue'
+import Resume from "@/components/Resume.vue";
 
 export default {
-name: 'ResumeView',
-components: {
-  Resume
-  
-}
-}
+  name: "ResumeView",
+  components: {
+    Resume,
+  },
+};
 </script>

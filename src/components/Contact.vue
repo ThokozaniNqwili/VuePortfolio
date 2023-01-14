@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <h1>Contact Me</h1>
-    
+
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
@@ -89,22 +89,20 @@
                 <i class="fas fa-map-marker-alt" style="font-size: 36px"></i>
               </div>
               <div class="detail col-sm-8 fs-6">Khayelitsha, Cape Town</div>
-             
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  
+  </div>
 </template>
 
 <style>
-.container{
+.container {
   margin-bottom: 2rem;
 }
 
-.contact .icons{
+.contact .icons {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

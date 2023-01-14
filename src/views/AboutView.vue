@@ -1,17 +1,16 @@
 <template>
   <div class="about">
-
     <About />
   </div>
 </template>
 
 <script>
-import About from '@/components/About.vue'
+import About from "@/components/About.vue";
 
 export default {
-  name: 'AboutView',
+  name: "AboutView",
   components: {
-    About
-  }
-}
+    About,
+  },
+};
 </script>

@@ -1,17 +1,16 @@
 <template>
-    <div class="testimonials">
-      <Testimonials/>
-    </div>
-  </template>
+  <div class="testimonials">
+    <Testimonials />
+  </div>
+</template>
 
-  <script>
-  import Testimonials from '@/components/Testimonials.vue'
+<script>
+import Testimonials from "@/components/Testimonials.vue";
 
-  export default {
-  name: 'TestimonialsView',
+export default {
+  name: "TestimonialsView",
   components: {
-    Testimonials
-    
-  }
-}
- </script>
+    Testimonials,
+  },
+};
+</script>

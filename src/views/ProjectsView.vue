@@ -1,17 +1,16 @@
 <template>
   <div class="Projects">
-    <Projects/>
+    <Projects />
   </div>
 </template>
 
 <script>
-import Projects from '@/components/Projects.vue'
+import Projects from "@/components/Projects.vue";
 
 export default {
-name: 'ProjectsView',
-components: {
-  Projects
-  
-}
-}
+  name: "ProjectsView",
+  components: {
+    Projects,
+  },
+};
 </script>
