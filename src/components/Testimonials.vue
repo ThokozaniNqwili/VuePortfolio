@@ -1,11 +1,11 @@
 <template>
-    <div class="container">
+    <div class="testimonial">
         <h1>Testimonials</h1>
         <div class="row">
           <div class="col-6 col-sm-4" v-for="item in items">
 
             <div class="card">
-                <img :src="item.img" class="card-img-top" alt="Image" style="height:24rem;">
+                <img :src="item.img" class="card-img-top" alt="Image" style="height:22rem;">
                 <div class="card-body">
                   <h3 class="card-title">{{item.name}}</h3>
                   <h5>{{item.relation}}</h5>
@@ -32,7 +32,7 @@ export default {
             {
                 name:"Oslin Johnson",
                 img: "https://i.postimg.cc/L8wCbRwL/Oslin.jpg",
-                relation: "Lecturer",
+                relation: "Life Choices Academy Lecturer",
                 message:"Thokozani is a very diligent person with the will to push herself to attain her goals to the best of her ability and to her satisfaction. She doesn't let anything get her down and always makes it her duty to find how she will understand things"
 
             },
@@ -66,10 +66,10 @@ export default {
 
             },
             {
-                name:"Uzukhanye Dywili",
-                img:"https://i.postimg.cc/nzFTgzFR/Uzukhanye.jpg",
-                relation:"Life Choices Academy Peer",
-                message:""
+                name:"Ryan Thomas",
+                img:"https://i.postimg.cc/dV9pv6Np/Ryan-Thomas.jpg",
+                relation:"Life Choices Academy Lecturer",
+                message:"Thokozani is someone who refuses to give up or take a loss. She always strives to deliver her utmost best and it shows in her work ethic as well as the results of what she delivers."
             }
 
         ]     
@@ -81,26 +81,90 @@ export default {
 <style>
 .card{
     padding: 0.5rem;
-    margin:1rem;
+    margin:0.8rem;
     width: 23rem;
     height:40rem;
 }
-@media (width: 300px){
+@media screen and (min-width: 300px) and (max-width: 719px) {
+    .row{
+        display :grid !important;
+        grid-template-columns: auto !important;
+        margin: 0!important;
+     
+    }
     .card{
-        width: 15rem;
-        height:50%;
-        font-size: 50%;
-        margin: 0;
-        padding: 0.1rem;
+        width: 14rem;
+        height:22rem;
+        font-size: 56%;
+        margin: 0.5rem;
+        padding: 0.3rem;
+       
     }
-    h3{
-        font-size: 90%;
+    .card-body h3{
+        font-size: 0.9rem;
     }
-    h5{
-        font-size: 90%;
+    .card-body h5{
+        font-size: 0.9rem;
+    }
+    
+  
+    .card-img-top{
+        height: 11rem !important;
     }
 
 }
+@media screen and (min-width: 720px) and (max-width: 1079px) {
+    .row{
+        display :grid !important;
+        grid-template-columns: auto auto !important;
+        margin: 0!important;
+
+}
+.card{
+    width: 18rem;
+    height:30rem;
+    font-size: 72%;
+    margin: 0.5rem;
+    padding: 0.3rem;
+   
+}
+.card-body h3{
+    font-size: 1.2rem;
+}
+.card-body h5{
+    font-size: 1.2rem;
+}
+
+
+.card-img-top{
+    height: 16rem !important;
+}
+
+
+}
+@media screen and (min-width: 1080px) and (max-width: 1495px) {
+    .row{
+        margin: 0;
+    }
+    .card{
+        padding: 0.4rem;
+        margin:0.8rem;
+        font-size: 85%;
+        width: 20rem;
+        height:34rem;
+    }
+    .card-body h3{
+        font-size: 1.3rem;
+    }
+    .card-body h5{
+        font-size: 1.3rem;
+    }
+    .card-img-top{
+        height: 18rem !important;
+    }
+    
+}
+
     
 
 </style>

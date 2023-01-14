@@ -74,7 +74,7 @@
               <div class="col-sm-4">
                 <i class="fas fa-phone" style="font-size: 36px"></i>
               </div>
-              <div class="detail col-sm-8 fs-6">Call me on:+27 81 232 6542</div>
+              <div class="detail col-sm-6 fs-8">Call me on:+27 81 232 6542</div>
             </div>
 
             <div class="row">
@@ -100,8 +100,11 @@
 </template>
 
 <style>
+.container{
+  margin-bottom: 2rem;
+}
 
-.contact .icons {
+.contact .icons{
   display: flex;
   flex-direction: column;
   justify-content: space-between;

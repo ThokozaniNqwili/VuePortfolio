@@ -20,9 +20,7 @@
             <a href="https://github.com/ThokozaniNqwili"
               ><i class="fa-brands fa-github fa-bounce"></i
             ></a>
-            <a href="https://github.com/ThokozaniNqwili"
-            ><i class="fa-sharp fa-solid fa-file fa-bounce"></i
-          ></a>
+            
 
           </ul>
         </div>
@@ -33,13 +31,17 @@
 </template>
 
 <style>
+.container-fluid {
+  width: 100%;
+  height: 100%;
+}
 .banner{
   transform: translateX(25rem);
 }
 
 .social_icon
 {
-    margin-left: 7rem;
+    margin-left: 9rem;
     margin-top: 2rem;
     display: flex;
     align-items: center;
@@ -120,7 +122,8 @@
 }
 
 .name:hover {
-  transform: scale(1, 2);
+  transform: scale(1.1, 2);
+  margin: 1.2rem;
 }
 
 .name:hover::after {
@@ -130,15 +133,13 @@
 
 .heading{
     transform: translateY(-28rem);
-    top: 10%;
     padding-left: 8rem;
     
 }
 
 @media screen and (min-width: 300px) and (max-width: 719px) {
   .heading{
-    transform: translateY(-6.5rem);
-    top: 20%;
+    transform: translateY(-5.5rem);
     padding-left: 0.9rem;
   }
  
@@ -156,14 +157,15 @@
   .social_icon
   {   
     margin-top: 0.5rem;
-    margin-left: 0.1rem;
+    margin-left: 1.2rem;
 
   }
 .social_icon a {
 margin: 0 0.3rem;
 }
 .name:hover {
-  transform: scale(1, 1.3);
+  transform: scale(1.1, 1.3);
+  margin: 0.4rem;
 }
 .banner{
   transform: translateX(6.5rem);
@@ -188,9 +190,18 @@ margin: 0 0.3rem;
   .social_icon
   {   
     margin-top: 0.8rem;
-    margin-left: 0.8rem;
+    margin-left: 4em;
 
   }
+}
+@media screen and (min-width: 1080px) and (max-width: 1495px) {
+  .heading{
+    transform: translateY(-20rem);
+    top: 10%;
+    padding-left: 3rem;
+  
+
+}
 
 }
 

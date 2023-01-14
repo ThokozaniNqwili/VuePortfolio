@@ -1,4 +1,7 @@
 <template>
+  <div class="resume">
+    <h1>Resume</h1>
+
     <div class="education text-center">
         <h2>Education</h2>
         
@@ -50,7 +53,7 @@
           </div>
 
 
-
+</div>
 
         
       
@@ -131,6 +134,10 @@ export default {
 </script>
 
 <style>
+.resume{
+ margin-bottom: 2rem;
+
+}
 
 
 .cap i{
@@ -163,9 +170,8 @@ export default {
   margin:1.5rem;
 
 }
-.skill h5
 .timeline-items{
-  max-width: 40rem;
+  max-width: 1000px;
   margin: auto;
   display: flex;
   flex-wrap:wrap ;
@@ -174,16 +180,15 @@ export default {
 .timeline-items::before{
   content: '';
   position: absolute;
-  width: 0.2rem;
-  height: 20rem;
-  background-color:#ABC9FF;
-  left: calc(50% - 0.1rem);
- 
+  width: 2px;
+  height: 100%;
+  background-color:#0b0bc4;
+  left: calc(50% - 1px);
 }
 
 .timeline-item{
   
-  margin-bottom: 3rem;
+  margin-bottom: 40px;
   width: 100%;
   position: relative;
 }
@@ -191,38 +196,38 @@ export default {
   margin-bottom: 0;
 }
 .timeline-item:nth-child(odd){
-  padding-right: calc(50% + 3rem);
+  padding-right: calc(50% + 30px);
 }
 .timeline-item:nth-child(even){
-  padding-left: calc(50% + 1rem);
+  padding-left: calc(50% + 30px);
 }
 .timeline-dot{
-  height: 1rem;
-  width: 1rem;
-  background-color:#ABC9FF;
+  height: 16px;
+  width: 16px;
+  background-color: #0b0bc4;
   position: absolute;
-  left:calc(50% - 0.5rem);
+  left:calc(50% - 8px);
   border-radius: 50%;
   top: 10px;
 }
 .timeline-date{
-  font-size: 1rem;
-  margin:1rem 0 1rem ;
-  font-style: italic;
+  font-size: 18px;
+  margin:6px 0 15px ;
 }
 
-.timeline-content h4{
-  border-color: black;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 0.5rem;
+.timline-content{
+  padding: 30px;
+  border-radius: 5px;
 }
+
+
 h2{
   text-align: center;
   margin: 1.5rem;
   text-decoration: underline;
 }
-@media (width: 300px){
+
+@media screen and (min-width: 300px) and (max-width: 719px) {
   .cap{
     font-size: 2rem !important;
 
@@ -252,9 +257,6 @@ h2{
     font-size: 0.8rem !important;
     padding: 0.1rem;
 
-  }
-  .timeline-items::before{
-    height: 30rem;
   }
  
   

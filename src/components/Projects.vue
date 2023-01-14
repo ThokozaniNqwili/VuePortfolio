@@ -1,6 +1,6 @@
 <template> 
   <h1>My Projects</h1>
-  <div class="grid-container">
+  <div class="grid-container ">
    
     <div class=" flip-card" v-for="key in projects">
       <div class="flip-card-inner">
@@ -9,6 +9,7 @@
             :src="key.image"
             alt="project"
             style="width: 15rem; height: 15rem;"
+            class="project"
           />
          <h5 class="card-title">{{key.project}}</h5>
         </div>
@@ -24,7 +25,7 @@
             <a
               :href= key.live
               class="card-link mybtn"
-              >Live</a
+              >Netlify</a
             >
             <a
               :href=key.github
@@ -94,11 +95,13 @@ export default {
 </script>
 
 <style>
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 1rem;
   margin: 1rem;
+
   
 }
 .flip-card {
@@ -141,9 +144,20 @@ export default {
 .flip-card-back {
   padding-top: 50px;
   background-color:#FFDEDE;
-  color: black;
   transform: rotateY(180deg);
+  color: black
 }
+.card-link{
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+  
+}
+.card-link:hover{
+  color: #EB4747;
+  text-decoration: line-through;
+}
+
 @media screen and (min-width: 300px) and (max-width: 719px) {
   .grid-container {
     display: grid;
@@ -153,6 +167,10 @@ export default {
   .flip-card {
     width:14rem;
     height: 15rem;
+  }
+  .project{
+    width: 10rem !important;
+    height: 10rem !important;
   }
 }
 @media screen and (min-width: 720px) and (max-width: 1079px) {
