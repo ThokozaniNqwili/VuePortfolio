@@ -1,7 +1,7 @@
 <template>
   <div>
     <footer>
-      <ul class="social_icon">
+      <ul class="social_icon text-center">
         <a href="https://www.linkedin.com/in/thokozani-nqwili-5b5a8517a"
           ><i class="fab fa-linkedin-in"></i
         ></a>

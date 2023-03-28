@@ -13,10 +13,10 @@
         </div>
 
         <div class="col-sm-8 fs-6">
-          <h3>Data Analyst /Software Developer</h3>
+          <h3>Web Developer</h3>
           <p>
             I am a goal-driven Information Systems Graduate from the University
-            of Cape Town, I have passion for software programming. I have the
+            of Cape Town, I have passion for programming. I have the
             skills and training needed to help develop and maintain software
             programs and to make improvements that will enhance functionality. I
             have outstanding problem-solving skills with the ability to

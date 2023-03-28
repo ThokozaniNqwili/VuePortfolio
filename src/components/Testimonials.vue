@@ -57,7 +57,7 @@ export default {
         {
           name: "Phelo Madubela",
           img: "https://i.postimg.cc/LshTR7KR/phelo.jpg",
-          relation: "Former Colleague",
+          relation: "Former iStore Colleague",
           message:
             "Thokozani is a young dedicated individual with a positive mindset. I got to see this because we worked together, her work ethic is impeccable. She always willing to help and learn, she works with a smile on her face. She's definetly loyal, trustworthy and reliable",
         },

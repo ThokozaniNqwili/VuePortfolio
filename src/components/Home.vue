@@ -9,7 +9,7 @@
 
     <div class="heading">
       <div class="name">Thokozani Nqwili</div>
-      <div class="position">Data Analyst / Software Developer</div>
+      <div class="position">Web Developer</div>
       <ul class="social_icon">
         <a href="https://www.linkedin.com/in/thokozani-nqwili-5b5a8517a"
           ><i class="fab fa-linkedin-in fa-bounce"></i
