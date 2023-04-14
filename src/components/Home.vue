@@ -11,13 +11,13 @@
       <div class="name">Thokozani Nqwili</div>
       <div class="position">Web Developer</div>
       <ul class="social_icon">
-        <a href="https://www.linkedin.com/in/thokozani-nqwili-5b5a8517a"
+        <a href="https://www.linkedin.com/in/thokozani-nqwili-5b5a8517a" target="blank"
           ><i class="fab fa-linkedin-in fa-bounce"></i
         ></a>
-        <a href="https://www.instagram.com/_thokzin/"
+        <a href="https://www.instagram.com/_thokzin/" target="blank"
           ><i class="fab fa-instagram fa-bounce"></i>
         </a>
-        <a href="https://github.com/ThokozaniNqwili"
+        <a href="https://github.com/ThokozaniNqwili" target="blank"
           ><i class="fa-brands fa-github fa-bounce"></i
         ></a>
       </ul>

@@ -2,13 +2,13 @@
   <div>
     <footer>
       <ul class="social_icon text-center">
-        <a href="https://www.linkedin.com/in/thokozani-nqwili-5b5a8517a"
+        <a href="https://www.linkedin.com/in/thokozani-nqwili-5b5a8517a" target="blank"
           ><i class="fab fa-linkedin-in"></i
         ></a>
-        <a href="https://www.instagram.com/_thokzin/"
+        <a href="https://www.instagram.com/_thokzin/" target="blank"
           ><i class="fab fa-instagram"></i>
         </a>
-        <a href="https://github.com/ThokozaniNqwili"
+        <a href="https://github.com/ThokozaniNqwili" target="blank"
           ><i class="fa-brands fa-github"></i
         ></a>
       </ul>

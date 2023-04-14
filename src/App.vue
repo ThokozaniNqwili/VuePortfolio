@@ -21,7 +21,7 @@ export default {
 
 <style>
 #app {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Brush Script MT', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  

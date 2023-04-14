@@ -6,7 +6,7 @@
         <div class="card">
           <img
             :src="item.img"
-            class="card-img-top"
+            class="card-img-top img-fluid"
             alt="Image"
             style="height: 22rem"
           />
@@ -28,7 +28,7 @@ export default {
       items: [
         {
           name: "Oslin Johnson",
-          img: "https://i.postimg.cc/L8wCbRwL/Oslin.jpg",
+          img: "https://i.postimg.cc/xCRd46mZ/oslin2.png",
           relation: "Life Choices Academy Lecturer",
           message:
             "Thokozani is a very diligent person with the will to push herself to attain her goals to the best of her ability and to her satisfaction. She doesn't let anything get her down and always makes it her duty to find how she will understand things",
@@ -63,7 +63,7 @@ export default {
         },
         {
           name: "Ryan Thomas",
-          img: "https://i.postimg.cc/dV9pv6Np/Ryan-Thomas.jpg",
+          img: "https://i.postimg.cc/gjVHQFsW/ryan2.jpg",
           relation: "Life Choices Academy Lecturer",
           message:
             "Thokozani is someone who refuses to give up or take a loss. She always strives to deliver her utmost best and it shows in her work ethic as well as the results of what she delivers.",
