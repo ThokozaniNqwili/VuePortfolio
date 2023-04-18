@@ -41,7 +41,7 @@ export default {
             "Throughout the time with our organization, she demonstrated critical skills that would make her an excellent employee at any company.Thokozani did a terrific job in her position and was an asset to our Support team",
         },
         {
-          name: "Tsepang Matebese",
+          name: "Tsepang Matebese ",
           img: "https://i.postimg.cc/VLSXHM8Z/tsepang.jpg",
           relation: "Friend",
           message:
