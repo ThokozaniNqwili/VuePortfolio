@@ -96,7 +96,7 @@ export default {
         {
           date: "May 2022 - September 2022",
           position: "Technical Support Consultant",
-          company: "iStore Somerset",
+          company: "iStore Somerset West",
           duties:
             "Troubleshoot problems and diagnose and solve technical issues",
         },
