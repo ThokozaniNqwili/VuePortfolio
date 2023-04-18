@@ -21,7 +21,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Brush Script MT', cursive;
+  font-family:Comic Sans, Comic Sans MS, cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  

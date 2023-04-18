@@ -26,6 +26,8 @@
             mindset.
           </p>
           <br />
+         
+          
 
           <div class="row row-cols-2 fs-6">
             <div class="col">Name: Thokozani Nqwili</div>
