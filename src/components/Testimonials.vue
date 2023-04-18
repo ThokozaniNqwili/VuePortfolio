@@ -41,7 +41,7 @@ export default {
             "Throughout the time with our organization, she demonstrated critical skills that would make her an excellent employee at any company.Thokozani did a terrific job in her position and was an asset to our Support team",
         },
         {
-          name: "Tsepang Tihoeng-Matebese",
+          name: "Tsepang Matebese",
           img: "https://i.postimg.cc/VLSXHM8Z/tsepang.jpg",
           relation: "Friend",
           message:
@@ -80,6 +80,7 @@ export default {
   margin: 0.8rem;
   width: 23rem;
   height: 40rem;
+ 
 }
 @media screen and (min-width: 300px) and (max-width: 719px) {
   .row {
