@@ -91,6 +91,14 @@ export default {
           skill: "VUEJS",
           logo: "https://i.postimg.cc/R0n59QR0/vue2.png",
         },
+        {
+          skill: "NODEJS",
+          logo: "https://i.postimg.cc/bJ4TH3MY/nodejs-removebg-preview.png",
+        },
+        {
+          skill: "MYSQL",
+          logo: "https://i.postimg.cc/SsyWqHMv/mysql-removebg-preview.png",
+        },
       ],
       experience: [
         {
