@@ -12,7 +12,7 @@
           ><i class="fa-brands fa-github"></i
         ></a>
       </ul>
-      <ul class="menu">
+      <ul class="menu text-center">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Projects</a></li>
@@ -36,6 +36,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 footer .social_icon,
