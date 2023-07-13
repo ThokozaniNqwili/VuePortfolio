@@ -20,8 +20,8 @@
           </div>
 
           <div class="card-body text-center">
-            <a :href="key.live" class="card-link mybtn">Netlify</a>
-            <a :href="key.github" class="card-link mybtn">Github</a>
+            <a :href="key.live" class="card-link mybtn" target="blank">Netlify</a>
+            <a :href="key.github" class="card-link mybtn" target="blank">Github</a>
           </div>
         </div>
       </div>
